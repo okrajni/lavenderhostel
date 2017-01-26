@@ -1,0 +1,96 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+/* NAGŁÓWEK*/
+nav {
+  margin: 0 0 30px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+.icon-bar{
+  background-color: #000;
+}
+nav .row, footer .row {
+  display: flex;
+  align-items: center;
+}
+nav .navbar-brand {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 0;
+  color: #000;
+  font-family: 'Handlee', cursive;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 17px;
+}
+header nav p {
+  padding-left: 20px;
+}
+/* zdjęcie */
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('img/lawenda.png');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+  font-family: 'Handlee', cursive;
+}
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+section .row p{
+  margin:0 ;
+  padding: 0;
+}
+section .row img {
+  margin: 0;
+  width: 80%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  padding-bottom: 40px;
+}
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+footer ul {
+  list-style: none;
+}
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+a:link {
+  color: #000;
+}
+a:visited{
+  color: #000;
+}

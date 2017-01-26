@@ -1,0 +1,168 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+/* NAGŁÓWEK*/
+nav {
+  margin: 0 0 30px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+.icon-bar{
+  background-color: #000;
+}
+nav .row, footer .row {
+  display: flex;
+  align-items: center;
+}
+nav .navbar-brand {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 0;
+  color: #000;
+  font-family: 'Handlee', cursive;
+}
+/* zdjęcie */
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('img/lawenda.png');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+  font-family: 'Handlee', cursive;
+}
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+.btn {
+  border-radius: 2px;
+  border: 0px;
+  color: #eee;
+  text-shadow: none;
+  background-color: #eee;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #000;
+}
+
+.btn:hover {
+  color: #eee;
+  background-color: #663366;
+}
+
+/*ikony*/
+section .row img {
+  margin: 0 0 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 40%;
+}
+
+section h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Handlee', cursive;
+
+}
+section h2{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+section p{
+  font-size: 20px;
+  font-weight: 100;
+  padding-bottom: 20px;
+  line-height: 28pt;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+section p span{
+  font-size: 15px;
+}
+section #icons{
+  background-color: #eee;
+  padding-right: 50px;
+  padding-left: 50px;
+
+}
+
+div .col-sm-3{
+  background-color: #eee;
+  margin: 0 0 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.col-sm-3 {
+  margin: 0 0 100px;
+}
+
+address{
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 28pt;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+form {
+  width: 50%; 
+  margin: 0 auto;
+  vertical-align: middle;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.form-control{
+  border-color: #663366;
+  background-color: #eee;
+}
+.form-control:focus{
+  border-color: #663366;
+  background-color: lavender;
+}
+
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  padding-bottom: 40px;
+
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+a:link {
+  color: #000;
+}
+a:visited{
+  color: #000;
+}
